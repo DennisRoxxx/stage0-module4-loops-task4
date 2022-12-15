@@ -4,8 +4,8 @@ public class NumberToBreakOn {
     public void printNumbersUntilWithBreakOn(int toBreakWith, int numberToGoUntil) {
          if (numberToGoUntil > toBreakWith){
             for (int i = 1; i <= numberToGoUntil; i++){
-             if (i > toBreakWith)
-                 break;
+             if (i <= toBreakWith)
+
                 System.out.println(i);
             }
         }
